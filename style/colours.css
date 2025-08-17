@@ -1,0 +1,32 @@
+:root {
+  /* Backgrounds */
+  --color-bg: #24273a; /* Base */
+  --color-bg-soft: #1e2030; /* Mantle */
+  --color-bg-alt: #181926; /* Crust */
+
+  /* Text */
+  --color-text: #cad3f5; /* Main text */
+  --color-text-muted: #a5adcb; /* Subtle text */
+  --color-heading: #b7bdf8; /* Headings / Titles */
+
+  /* Primary & Accent Colors */
+  --color-primary: #8aadf4; /* Blue */
+  --color-secondary: #f5a97f; /* Peach */
+  --color-tertiary: #a6da95; /* Green */
+
+  /* Semantic Colors */
+  --color-success: #a6da95; /* Green */
+  --color-warning: #eed49f; /* Yellow */
+  --color-error: #ed8796; /* Red */
+  --color-info: #91d7e3; /* Sky */
+
+  /* UI / Surface */
+  --color-surface: #363a4f; /* Surface0 */
+  --color-border: #494d64; /* Surface1 */
+  --color-overlay: #5b6078; /* Surface2 */
+
+  /* Extras */
+  --color-pink: #f5bde6;
+  --color-mauve: #c6a0f6;
+  --color-teal: #8bd5ca;
+}
