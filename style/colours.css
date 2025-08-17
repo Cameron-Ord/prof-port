@@ -30,3 +30,8 @@
   --color-mauve: #c6a0f6;
   --color-teal: #8bd5ca;
 }
+
+::selection {
+  background-color: var(--color-bg-soft);
+  color: var(--color-text);
+}
