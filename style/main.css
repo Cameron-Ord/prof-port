@@ -54,6 +54,10 @@ img {
   margin: 0px;
 }
 
+.txt-override {
+  color: var(--color-text);
+}
+
 .shrink-container {
   min-width: 0;
   width: 100%;
@@ -106,8 +110,20 @@ img {
   border-radius: 4px;
 }
 
+.red-override {
+  color: var(--color-error);
+}
+
 .text-muted {
   color: var(--color-text-muted);
+}
+
+.mauve-override {
+  color: var(--color-mauve);
+}
+
+.pink-override {
+  color: var(--color-pink);
 }
 
 .inf-override {
@@ -213,13 +229,24 @@ img {
   border-radius: 4px;
 }
 
+.button-small-unfocused {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 6px;
+  padding-right: 6px;
+  background-color: var(--color-surface);
+  border: solid 1px var(--color-border);
+  color: var(--color-primary);
+  border-radius: 4px;
+}
+
 .button-unfocused {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 12px;
   padding-right: 12px;
   background-color: var(--color-surface);
-  border: solid 1px var(--color-info);
-  color: var(--color-info);
+  border: solid 1px var(--color-border);
+  color: var(--color-primary);
   border-radius: 4px;
 }

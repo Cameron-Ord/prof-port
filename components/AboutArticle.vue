@@ -5,7 +5,7 @@
       I'm a <span class="inf-override">developer</span> with a strong foundation in both frontend
       and backend development.
     </p>
-    <h3 class="tert-override">What is my <span class="prim-override">skillset</span>?</h3>
+    <h3 class="">What is my <span class="prim-override">skillset</span>?</h3>
     <p class="surface-w-border max-p-90">
       On the frontend, I specialize in <span class="inf-override">Vue3</span> with
       <span class="inf-override">TypeScript </span> and/or
@@ -21,5 +21,7 @@
       <span class="inf-override">OpenGL</span> API specification, which has strengthened my
       understanding of system-level programming and graphics.
     </p>
+
+    <h3 class="button-small-unfocused">...</h3>
   </article>
 </template>
