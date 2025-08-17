@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <main class="page_main"></main>
+  <section class="grid-sect-rows"></section>
 </template>
 
 <style scoped></style>

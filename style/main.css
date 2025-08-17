@@ -1,11 +1,28 @@
 @import 'colours.css';
 
+.center-self {
+  justify-self: center;
+  align-self: center;
+}
+
 body {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  min-height: 100vh;
+  max-width: 100%;
   background-color: var(--color-bg);
   padding: 0px;
   margin: 0px;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#app {
+  display: grid;
+  align-items: center;
+  justify-items: center;
 }
 
 p,
@@ -23,7 +40,157 @@ h3 {
   color: var(--color-heading);
 }
 
+.normal-break {
+  word-break: normal;
+  word-wrap: break-word;
+}
+
 img {
   padding: 0px;
   margin: 0px;
+}
+
+.shrink-container {
+  min-width: 0;
+  width: 100%;
+  max-width: 600px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.dft-grid {
+  display: grid;
+  min-width: 0px;
+}
+
+.row-spc-12px {
+  row-gap: 12px;
+}
+
+.col-spc-12px {
+  column-gap: 12px;
+}
+
+.row-spc-4px {
+  row-gap: 4px;
+}
+
+.col-spc-4px {
+  column-gap: 4px;
+}
+
+.force-min-height {
+  min-height: 100vh;
+}
+
+.surface-no-border {
+  background-color: var(--color-surface);
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.surface-w-border {
+  background-color: var(--color-surface);
+  border: solid 1px var(--color-border);
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.text-muted {
+  color: var(--color-text-muted);
+}
+
+.inf-override {
+  color: var(--color-info);
+}
+
+.prim-override {
+  color: var(--color-primary);
+}
+
+.sec-override {
+  color: var(--color-secondary);
+}
+
+.tert-override {
+  color: var(--color-tertiary);
+}
+
+/*only works for parent grids*/
+.align-child-start {
+  align-items: start;
+}
+
+.justify-child-start {
+  justify-items: start;
+}
+
+.align-child-center {
+  align-items: center;
+}
+
+.flex-justify-child-center {
+  justify-content: center;
+}
+
+.justify-child-center {
+  justify-items: center;
+}
+
+.flex-div-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-div-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-sect-rows {
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.grid-sect-cols {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.max-w600 {
+  max-width: 600px;
+}
+
+.max-p-50 {
+  max-width: 50%;
+}
+
+.max-p-60 {
+  max-width: 60%;
+}
+
+.max-p-80 {
+  max-width: 80%;
+}
+
+.w80 {
+  width: 80%;
+}
+
+.w90 {
+  width: 90%;
+}
+
+.break-word-all {
+  word-break: normal;
+}
+
+.break-letter-all {
+  line-break: normal;
 }

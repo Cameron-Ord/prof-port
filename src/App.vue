@@ -3,9 +3,7 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <div class="doc_main">
+  <main class="dft-grid w90 force-min-height align-child-center justify-child-center">
     <router-view></router-view>
-  </div>
+  </main>
 </template>
-
-<style scoped></style>
